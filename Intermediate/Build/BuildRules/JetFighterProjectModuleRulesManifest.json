@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Programming Learning\\Unreal\\JetFighterProject\\Source\\JetFighterProject\\JetFighterProject.Build.cs",
+		"D:\\Programming Learning\\Unreal\\JetFighterProject\\Source\\JetFighterProject.Target.cs",
+		"D:\\Programming Learning\\Unreal\\JetFighterProject\\Source\\JetFighterProjectEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.0"
+}

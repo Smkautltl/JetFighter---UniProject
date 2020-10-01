@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-JetFighterProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Programming Learning\Unreal\JetFighterProject\Intermediate\Build\Win64\JetFighterProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Programming Learning\Unreal\JetFighterProject\Intermediate\Build\Win64\UE4Editor\Development\JetFighterProject\JetFighterProject.cpp.obj"
+"D:\Programming Learning\Unreal\JetFighterProject\Intermediate\Build\Win64\UE4Editor\Development\JetFighterProject\JetFighterProjectGameModeBase.cpp.obj"
+"D:\Programming Learning\Unreal\JetFighterProject\Intermediate\Build\Win64\UE4Editor\Development\JetFighterProject\JetFighterProject.init.gen.cpp.obj"
+"D:\Programming Learning\Unreal\JetFighterProject\Intermediate\Build\Win64\UE4Editor\Development\JetFighterProject\JetFighterProjectGameModeBase.gen.cpp.obj"
+"D:\Programming Learning\Unreal\JetFighterProject\Intermediate\Build\Win64\UE4Editor\Development\JetFighterProject\Default.rc2.res"
+/OUT:"D:\Programming Learning\Unreal\JetFighterProject\Intermediate\Build\Win64\UE4Editor\Development\JetFighterProject\UE4Editor-JetFighterProject.lib"
+/INCLUDE:IMPLEMENT_MODULE_JetFighterProject

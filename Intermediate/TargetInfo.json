@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "JetFighterProject",
+			"Path": "D:\\Programming Learning\\Unreal\\JetFighterProject\\Source\\JetFighterProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "JetFighterProjectEditor",
+			"Path": "D:\\Programming Learning\\Unreal\\JetFighterProject\\Source\\JetFighterProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
