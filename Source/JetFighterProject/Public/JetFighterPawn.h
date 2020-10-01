@@ -16,7 +16,7 @@ public:
 	AJetFighterPawn();
 
 	UFUNCTION(BlueprintCallable)
-	void UpdatePosition(float DeltaTime);
+	void UpdatePosition();
 	UFUNCTION(BlueprintCallable)
 	void UpdateYaw(float DeltaTime);
 	UFUNCTION(BlueprintCallable)
@@ -73,6 +73,7 @@ private:
 	float ThrustMultiply = 2500;
 	float Gravity = 981;
 	float Drag = 0.25;
+	float deltaTime;
 	
 	float MaxHealth = 100;
 //---------------------------------------------------------

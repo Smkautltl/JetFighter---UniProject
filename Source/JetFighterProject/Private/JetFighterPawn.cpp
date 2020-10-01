@@ -22,7 +22,7 @@ void AJetFighterPawn::BeginPlay()
 void AJetFighterPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	deltaTime = DeltaTime;
 }
 
 // Called to bind functionality to input
@@ -32,3 +32,21 @@ void AJetFighterPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 
 }
 
+void AJetFighterPawn::UpdatePosition()
+{
+
+	if(ThrustSpeed < CurrentSpeed)
+	{
+		CurrentSpeed = FMath::FInterpTo(CurrentSpeed, ThrustSpeed, deltaTime, Drag);
+	}
+	else
+	{
+		CurrentSpeed = ThrustSpeed;
+	}
+
+	FVector NewPosition = GetActorForwardVector() * (CurrentSpeed * deltaTime);
+
+	AppliedGravity = FMath::GetMappedRangeValueClamped({0.f,MinThrustToNotFall}, {Gravity, 0.f}, CurrentSpeed);
+
+	AddActorWorldOffset({NewPosition.X, NewPosition.Y, NewPosition.Z - (AppliedGravity * deltaTime)}, true);
+}
