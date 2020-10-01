@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\JetFighterProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F4C332A9-2103-4483-9E11-88FEA5A0A0C5}</UniqueIdentifier>
+      <UniqueIdentifier>{BDC026E0-D725-42A1-A626-8A2BCC69C618}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\JetFighterProject.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\JetFighterProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{0179982B-7429-4FC7-8587-8B40D6915EB3}</UniqueIdentifier>
+      <UniqueIdentifier>{4D050A30-D245-49A5-81BD-193CF76D047C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +26,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\JetFighterProject">
-      <UniqueIdentifier>{9F36ABC9-0EEC-45A7-86FC-A2E1C63D1592}</UniqueIdentifier>
+      <UniqueIdentifier>{4C0C827C-FCB2-4BC0-8D00-1A2655145FAF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\JetFighterProject\JetFighterProject.Build.cs">
       <Filter>Source\JetFighterProject</Filter>
@@ -40,6 +42,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\JetFighterProject\JetFighterProjectGameModeBase.h">
       <Filter>Source\JetFighterProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\JetFighterProject\Private">
+      <UniqueIdentifier>{35FD1D22-AB90-4396-9401-9AD8170EF58C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\JetFighterProject\Private\JetFighterPawn.cpp">
+      <Filter>Source\JetFighterProject\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\JetFighterProject\Public">
+      <UniqueIdentifier>{2193F62E-A3C1-447E-ADCA-6010AE198DF1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\JetFighterProject\Public\JetFighterPawn.h">
+      <Filter>Source\JetFighterProject\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

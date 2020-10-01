@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeJetFighterProject_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xBC969ABB,
-				0xA147A712,
+				0x12D3014D,
+				0x03FB0D4A,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

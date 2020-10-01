@@ -1,0 +1,3 @@
+D:\Programming Learning\Unreal\JetFighterProject\Intermediate\Build\Win64\UE4Editor\Development\JetFighterProject\Definitions.JetFighterProject.h
+D:\Programming Learning\Unreal\JetFighterProject\Source\JetFighterProject\Public\JetFighterPawn.h
+D:\Programming Learning\Unreal\JetFighterProject\Intermediate\Build\Win64\UE4Editor\Inc\JetFighterProject\JetFighterPawn.generated.h

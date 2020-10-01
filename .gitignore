@@ -342,3 +342,6 @@ healthchecksdb
 #Unreal Files
 *.umap
 *.uasset
+*.fbx
+*.jpg
+*.wav
